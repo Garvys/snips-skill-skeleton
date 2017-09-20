@@ -1,0 +1,4 @@
+class_name: MySkill
+intents:
+  - intent: ActivateObject
+    action: "turn_on"
