@@ -10,8 +10,7 @@ setup(
     install_requires=['requests==2.6.0'],
     test_suite="tests",
     keywords=['snips'],
+    packages=['myskill'],
+    package_data={'myskill': ['Snipsspec']},
     include_package_data=True,
-    packages=[
-        'myskill'
-    ]
 )
